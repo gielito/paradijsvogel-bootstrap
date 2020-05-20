@@ -2,7 +2,9 @@
 font-family: 'Average', serif; */
 
 body {
-    font-family: "Average", serif;
+    font-family: 'Playfair Display', serif;
+    background-color: fff;
+    text-align: center;
 }
 
 h1,
@@ -11,5 +13,50 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Playfair Display SC", serif;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
 }
+
+.navbar-brand{
+    font-size: 2rem;
+}
+
+.bgimg-header {
+    background-image: url("../img/bird-of-paradise.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    max-width:100%;
+
+  }
+/*
+    
+     background-attachment: fixed;
+
+
+
+  background: url("./img/bird-of-paradise.jpg");
+ 
+
+
+.nav.navbar-nav li a {
+    color: #fff;
+  }
+
+  .mt-74{
+margin-top:-74;
+
+}
+.mainimg {
+    position: relative;
+    background: url("img/bird-of-paradise.jpg");
+    min-height: 600px; }
+#home-section {
+    background: url("img/bird-of-paradise.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+  }
+
